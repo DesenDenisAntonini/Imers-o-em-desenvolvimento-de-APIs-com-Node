@@ -9,7 +9,7 @@ async function main() {
         const pessoa = result.results[i]
         names.push(pessoa.name)
       }
-      onsole.timeEnd('for')
+      console.timeEnd('for')
       console.time('forin')
       for (let i in result.results) {
         const pessoa = result.results[i]
